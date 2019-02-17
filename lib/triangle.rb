@@ -11,7 +11,7 @@ class Triangle
  
  
   def kind 
-    if s1 + s2 < s3 || s1 <= 0 
+    if ((s1 + s2) < s3) || s1 <= 0 
       begin 
       raise TriangleError
     end
